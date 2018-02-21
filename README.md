@@ -1,7 +1,14 @@
-# Complete-PHP-Login-System
+# Student Qi :computer: :pencil2:
+
+<p align="center">
+  <img max-width="350" src="https://github.com/Ahmed760/Complete-PHP-Login-System/blob/master/studentQi/qi.png">
+</p>
+
+
+# Complete-PHP-Login-System :bust_in_silhouette:
 This is a complete login system for a web application, using php.
 
-# How to Run
+# How to Run :running:
 To run this application locally you will need to set up a local testing server, 
 such as MAMP or XAMPP. This isn't a difficult process at all, both local server
 solutions have an easy-to-use front end user-interface.
@@ -13,18 +20,22 @@ This can be accessed through the <em>Open WebStart page</em> from the MAMP inter
 
 The WebStart page link is in the center in this screenshot
 
-
-<img src="https://github.com/Ahmed760/Complete-PHP-Login-System/blob/master/image-guide/MAMP-3.png" width="50%">
+<p align="center">
+  <img max-width="350" src="https://github.com/Ahmed760/Complete-PHP-Login-System/blob/master/image-guide/MAMP-3.png">
+</p>
 
 You will find the local server & database configuration needed here: 
 
-<img src="https://github.com/Ahmed760/Complete-PHP-Login-System/blob/master/image-guide/MAMP-1.png" max-width="75%">
+<p align="center">
+  <img max-width="350" src="https://github.com/Ahmed760/Complete-PHP-Login-System/blob/master/image-guide/MAMP-1.png">
+</p>
 
 as well as an example below that: 
 
-<img src="https://github.com/Ahmed760/Complete-PHP-Login-System/blob/master/image-guide/MAMP-2.png" max-width="75%">
-
-# Using MAMP to point to your project directory
+<p align="center">
+  <img max-width="350" src="https://github.com/Ahmed760/Complete-PHP-Login-System/blob/master/image-guide/MAMP-2.png">
+</p>
+# Getting MAMP to point to your project directory :file_folder:
 
 In order for our web applications to become viewable on the mamp server, we must first tell MAMP where our project directory is located. This way MAMP can properly display our web application through their local server. 
 
