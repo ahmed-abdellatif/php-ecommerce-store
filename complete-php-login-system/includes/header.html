@@ -1,0 +1,124 @@
+<?php
+// This page begins the HTML header for the site.
+
+// Start output buffering:
+ob_start();
+
+// Initialize a session:
+session_start();
+
+// Check for a $page_title value:
+if (!isset($page_title)) {
+	$page_title = 'User Registration';
+}
+?>
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title><?php echo $page_title; ?></title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <meta name="author" content="Ahmed Abdellatif">
+  <!-- Mobile Specific Meta Tag-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+
+  <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+
+  <!-- Vendor Styles including: Bootstrap, Font Icons, Plugins, etc.-->
+  <link rel="stylesheet" media="screen" href="../css/vendor.min.css">
+  <!-- Main Template Styles-->
+  <link id="mainStyles" rel="stylesheet" media="screen" href="../css/styles.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Sarala" rel="stylesheet">
+  <!-- Modernizr-->
+  <script src="../js/modernizr.min.js"></script>
+  <style>
+  .title-banner {
+    overflow-x: hidden;
+    position: relative;
+    bottom: -2.5em;
+    -webkit-text-size-adjust: 100%;
+    -webkit-overflow-scrolling: touch;
+    -webkit-font-smoothing: antialiased !important;
+    font-size: 52px;
+    text-shadow: 1px 1px 1px #000;
+    font-weight: 550;
+    color: #fff;
+  }
+
+  </style>
+</head>
+
+
+<body>
+  <!-- Off-Canvas FULL SCREEN
+
+  Category Menu-->
+  <div class="offcanvas-container" id="categories">
+    <div class="offcanvas-header">
+      <h1 class="offcanvas-title">Welcome</h1>
+    </div>
+    <nav class="offcanvas-menu">
+      <ul class="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="register.php">Sign Up</a></li>
+        <li><a href="login.php">Log In</a></li>
+    </nav>
+  </div>
+  <!-- Off-Canvas Mobile Menu-->
+  <!-- Off-Canvas Mobile Menu
+
+MOBILE
+
+
+-->
+  <div class="offcanvas-container" id="mobile-menu">
+    <div class="offcanvas-header">
+      <h1 class="offcanvas-title">Welcome</h1>
+    </div>
+    <nav class="offcanvas-menu">
+      <ul class="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="register.php">Sign Up</a></li>
+        <li><a href="login.php">Log In</a></li>
+      </ul>
+    </nav>
+  </div>
+  <!-- Navbar-->
+  <!-- Remove "navbar-sticky" class to make navigation bar scrollable with the page.-->
+  <header class="navbar navbar-sticky">
+
+    <div class="site-branding">
+      <div class="inner">
+        <a class="offcanvas-toggle cats-toggle" href="#categories" data-toggle="offcanvas"></a>
+        <!-- Off-Canvas Toggle (#mobile-menu)-->
+        <a class="offcanvas-toggle menu-toggle" href="#mobile-menu" data-toggle="offcanvas"></a>
+        <!--
+
+        Logo ->
+
+        -->
+        <a class="site-logo" href="index.html"><img src="img/logo.png" alt="" style="margin:0 auto;max-width: 225px;height: auto;"></a>
+      </div>
+    </div>
+    <!-- Main Navigation-->
+    <nav class="site-menu">
+      <ul>
+        <li><a href="index.html"><span>Home</span></a></li>
+        <li><a href="#"><span>About Us</span></a></li>
+        <li><a href="#"><span>Contact</span></a></li>
+        <li><a href="register.php"><span>Sign Up</span></a></li>
+        <li><a href="login.php"><span>Log In</span></a></li>
+        </li>
+      </ul>
+      </li>
+      </ul>
+    </nav>
+  </header>
+<!-- End of Header -->
