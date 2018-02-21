@@ -6,7 +6,7 @@ To run this application locally you will need to set up a local testing server,
 such as MAMP or XAMPP. This isn't a difficult process at all, both local server
 solutions have an easy-to-use front end user-interface.
 
-# MAMP & MySQL
+# MAMP & MySQL :globe_with_meridians:
 
 The database and server configurations for MAMP & MySQL can be found at the <strong>start</strong> tab. 
 This can be accessed through the <em>Open WebStart page</em> from the MAMP interface. 
@@ -24,8 +24,8 @@ as well as an example below that:
 
 <img src="https://github.com/Ahmed760/Complete-PHP-Login-System/blob/master/image-guide/MAMP-2.png" max-width="75%">
 
-# PHPMyAdmin
-
+# Getting Started with PHPMyAdmin
+phpMyAdmin is a free web interface that allows users to write and administer MYSQL databases.   
 
 
 
