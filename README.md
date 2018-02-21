@@ -13,15 +13,16 @@ This can be accessed through the <em>Open WebStart page</em> from the MAMP inter
 
 The WebStart page link is in the center in this screenshot
 
-<img src="https://github.com/Ahmed760/Complete-PHP-Login-System/blob/master/MAMP-3.png" width="50%">
+
+<img src="https://github.com/Ahmed760/Complete-PHP-Login-System/blob/master/image-guide/MAMP-3.png" width="50%">
 
 You will find the local server & database configuration needed here: 
 
-<img src="https://github.com/Ahmed760/Complete-PHP-Login-System/blob/master/MAMP-1.png" max-width="75%">
+<img src="https://github.com/Ahmed760/Complete-PHP-Login-System/blob/master/image-guide/MAMP-1.png" max-width="75%">
 
 as well as an example below that: 
 
-<img src="https://github.com/Ahmed760/Complete-PHP-Login-System/blob/master/MAMP-2.png" max-width="75%">
+<img src="https://github.com/Ahmed760/Complete-PHP-Login-System/blob/master/image-guide/MAMP-2.png" max-width="75%">
 
 # PHPMyAdmin
 
