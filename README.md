@@ -24,7 +24,7 @@ as well as an example below that:
 
 <img src="https://github.com/Ahmed760/Complete-PHP-Login-System/blob/master/image-guide/MAMP-2.png" max-width="75%">
 
-# Directing MAMP to point to your project
+# Using MAMP to point to your project directory
 
 In order for our web applications to become viewable on the mamp server, we must first tell MAMP where our project directory is located. This way MAMP can properly display our web application through their local server. 
 
