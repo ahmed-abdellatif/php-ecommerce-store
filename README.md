@@ -1,7 +1,7 @@
 # Student Qi :computer: :pencil2:
 
 <p align="center">
-  <img max-width="350" src="https://github.com/Ahmed760/Complete-PHP-Login-System/blob/master/studentQi/qi.png">
+  <img max-width="200" src="https://github.com/Ahmed760/Complete-PHP-Login-System/blob/master/studentQi/qi.png">
 </p>
 
 
