@@ -1,22 +1,12 @@
-# Student Qi :computer: :pencil2:
-
-<p align="center">
-  <img max-width="200" src="https://github.com/Ahmed760/Complete-PHP-Login-System/blob/master/studentQi/qi.png">
-</p>
-
-
-# Complete-PHP-Login-System :bust_in_silhouette:
-This is a complete login system for a web application, using php.
-
-# How to Run :running:
-To run this application locally you will need to set up a local testing server, 
+# Running php applications :running:
+To run php application locally you will need to set up a local testing server,
 such as MAMP or XAMPP. This isn't a difficult process at all, both local server
 solutions have an easy-to-use front end user-interface.
 
 # Using MAMP & MySQL :globe_with_meridians:
 
-The database and server configurations for MAMP & MySQL can be found at the <strong>start</strong> tab. 
-This can be accessed through the <em>Open WebStart page</em> from the MAMP interface. 
+The database and server configurations for MAMP & MySQL can be found at the <strong>start</strong> tab.
+This can be accessed through the <em>Open WebStart page</em> from the MAMP interface.
 
 The WebStart page link is in the center in this screenshot
 
@@ -24,20 +14,20 @@ The WebStart page link is in the center in this screenshot
   <img max-width="350" src="https://github.com/Ahmed760/Complete-PHP-Login-System/blob/master/image-guide/MAMP-3.png">
 </p>
 
-You will find the local server & database configuration needed here: 
+You will find the local server & database configuration needed here:
 
 <p align="center">
   <img max-width="350" src="https://github.com/Ahmed760/Complete-PHP-Login-System/blob/master/image-guide/MAMP-1.png">
 </p>
 
-as well as an example below that: 
+as well as an example below that:
 
 <p align="center">
   <img max-width="350" src="https://github.com/Ahmed760/Complete-PHP-Login-System/blob/master/image-guide/MAMP-2.png">
 </p>
 # Getting MAMP to point to your project directory :file_folder:
 
-In order for our web applications to become viewable on the mamp server, we must first tell MAMP where our project directory is located. This way MAMP can properly display our web application through their local server. 
+In order for our web applications to become viewable on the mamp server, we must first tell MAMP where our project directory is located. This way MAMP can properly display our web application through their local server.
 
 1. Start by opening MAMP, then in the top left corner select the <strong>MAMP</strong> tab and select the <em>preferences</em> option<br>
 <p align="center">
@@ -59,9 +49,3 @@ In order for our web applications to become viewable on the mamp server, we must
 
 # Getting Started with PHPMyAdmin
 phpMyAdmin is a free web interface that allows users to write and administer MYSQL databases.   
-
-
-
-
-
-
