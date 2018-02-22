@@ -6,7 +6,7 @@
 * be sent to the user and requiring the user to confirm his/her
 * newly created account
 * Author: Ahmed Abdellatif
-**************************************************** ****************************************************
+********************************************************************************************************
 */
 
 require('includes/config.inc.php');
