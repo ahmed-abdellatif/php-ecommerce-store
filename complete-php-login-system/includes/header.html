@@ -1,0 +1,174 @@
+<?php
+// This page begins the HTML header for the site.
+
+// Start output buffering:
+ob_start();
+
+// Initialize a session:
+session_start();
+
+// Check for a $page_title value:
+if (!isset($page_title)) {
+	$page_title = 'User Registration';
+}
+?>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Web Application | Login Test | PHP</title>
+  <!-- SEO Meta Tags-->
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <meta name="author" content="Ahmed Abdellatif">
+  <!-- Mobile Specific Meta Tag-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Patua+One" rel="stylesheet">
+  <!-- Vendor Styles including: Bootstrap, Font Icons, Plugins, etc.-->
+  <link rel="stylesheet" media="screen" href="css/vendor.min.css">
+  <!-- Main Template Styles-->
+  <link id="mainStyles" rel="stylesheet" media="screen" href="css/styles.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Sarala" rel="stylesheet">
+  <!-- Modernizr-->
+  <script src="js/modernizr.min.js"></script>
+  <style>
+  .title-banner {
+    overflow-x: hidden;
+    position: relative;
+    bottom: -2.5em;
+    -webkit-text-size-adjust: 100%;
+    -webkit-overflow-scrolling: touch;
+    -webkit-font-smoothing: antialiased !important;
+    font-size: 52px;
+    text-shadow: 1px 1px 1px #000;
+    font-weight: 550;
+    color: #fff;
+  }
+
+  </style>
+</head>
+<!-- Body-->
+
+<body>
+  <!-- Off-Canvas FULL SCREEN
+
+  Category Menu-->
+  <div class="offcanvas-container" id="categories">
+    <div class="offcanvas-header">
+      <h1 class="offcanvas-title">StudentQi</h1>
+    </div>
+    <nav class="offcanvas-menu">
+      <ul class="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="register.php">Sign Up</a></li>
+        <li><a href="login.php">Log In</a></li>
+    </nav>
+  </div>
+  <!-- Off-Canvas Mobile Menu-->
+  <!-- Off-Canvas Mobile Menu
+
+MOBILE
+
+
+-->
+  <div class="offcanvas-container" id="mobile-menu">
+    <div class="offcanvas-header">
+      <h1 class="offcanvas-title">StudentQi</h1>
+    </div>
+    <nav class="offcanvas-menu">
+      <ul class="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="register.php">Sign Up</a></li>
+        <li><a href="login.php">Log In</a></li>
+      </ul>
+    </nav>
+  </div>
+  <!-- Navbar-->
+  <!-- Remove "navbar-sticky" class to make navigation bar scrollable with the page.-->
+  <header class="navbar navbar-sticky">
+    <!-- Search-->
+    <div class="site-branding">
+      <div class="inner">
+        <!-- Off-Canvas Toggle (#categories)-->
+        <a class="offcanvas-toggle cats-toggle" href="#categories" data-toggle="offcanvas"></a>
+        <!-- Off-Canvas Toggle (#mobile-menu)-->
+        <a class="offcanvas-toggle menu-toggle" href="#mobile-menu" data-toggle="offcanvas"></a>
+        <!--
+
+        Logo ->
+
+        -->
+        <a class="site-logo" href="index.html"><img src="img/logo.png" alt="" style="margin:0 auto;max-width: 225px;height: auto;"></a>
+      </div>
+    </div>
+    <!-- Main Navigation-->
+    <!-- Main Navigation-->
+    <nav class="site-menu">
+      <ul>
+        <li><a href="index.html"><span>Home</span></a></li>
+        <li><a href="#"><span>About Us</span></a></li>
+        <li><a href="#"><span>Contact</span></a></li>
+        <li><a href="register.php"><span>Sign Up</span></a></li>
+        <li><a href="login.php"><span>Log In</span></a></li>
+        </li>
+      </ul>
+      </li>
+      </ul>
+    </nav>
+    </div>
+  </header>
+  <!-- Off-Canvas Wrapper-->
+  <div class="offcanvas-wrapper">
+    <!-- Page Content-->
+    <!--
+    *********************************************************************************
+    Hero Slider 1
+    *********************************************************************************
+    -->
+    <section class="hero-slider" style="background-image: url(img/edu-1.jpg);background-repeat: no-repeat;background-position: center; ">
+      <div class="owl-carousel large-controls dots-inside" data-owl-carousel="{ &quot;nav&quot;: true, &quot;dots&quot;: true, &quot;loop&quot;: true, &quot;autoplay&quot;: true, &quot;autoplayTimeout&quot;: 7000 }">
+        <div class="item">
+          <div class="container padding-top-3x">
+            <div class="row justify-content-center align-items-center">
+              <div class="col-lg-5 col-md-6 padding-bottom-2x text-md-left text-center">
+                <div class="from-bottom">
+                  <div class="h2 title-banner">Excellent Tutors <span class="text-bold"></span>
+                  </div>
+                </div><a class="btn btn-primary scale-up delay-1" href="register.php" style="border:2px inset #bfbfbf;">  Register Now! <i class="fab fa-leanpub"></i></a>
+              </div>
+              <div class="col-md-6 padding-bottom-2x mb-3"></div>
+            </div>
+          </div>
+        </div>
+        <!--
+    *********************************************************************************
+    Hero Slider 2
+    *********************************************************************************
+    -->
+        <div class="hero-slider" style="background-image: url(img/edu-2.jpg);background-repeat: no-repeat;background-position: right center; ">
+          <div class="container padding-top-3x">
+            <div class="row justify-content-center align-items-center">
+              <div class="col-lg-5 col-md-6 padding-bottom-2x text-md-left text-center">
+                <div class="from-bottom">
+                  <div class="h2 text-body text-normal mb-2 pt-1"></div>
+                  <div class="h2 title-banner">Learn at <span class="text-bold">YOUR</span> Own Pace</div>
+                </div>
+                <a class="btn btn-primary scale-up delay-1" href="login.php" style="border:2px inset #bfbfbf;">
+                 Learn First <i class="fas fa-graduation-cap"></i></a>
+              </div>
+              <div class="col-md-6 padding-bottom-2x mb-3">
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
