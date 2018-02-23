@@ -19,17 +19,17 @@ This can be accessed through the <em>Open WebStart page</em> from the MAMP inter
 
 <p align="center">
 <strong>Mamp Interface</strong>
-  <img src="readme-img/MAMP-3.png" style="width:300px;">
+  <img height="300" src="https://github.com/ame-abdellatif/PHP/blob/master/readme-img/MAMP-3.png">
 </p>
 
 <p align="center">
 <strong>Database and Server Configurations</strong>
-  <img height="250" src="https://github.com/ame-abdellatif/PHP/blob/master/readme-img/MAMP-1.png">
+  <img height="300" src="https://github.com/ame-abdellatif/PHP/blob/master/readme-img/MAMP-1.png">
 </p>
 
 <p align="center">
 <strong>Examples</strong>
-  <img src="readme-img/MAMP-2.png" style="width:300px;">
+  <img height="300" src="https://github.com/ame-abdellatif/PHP/blob/master/readme-img/MAMP-2.png">
 </p>
 
 
@@ -40,19 +40,19 @@ In order for our web applications to become viewable on the mamp server, we must
 1. Start by opening MAMP, then in the top left corner select the <strong>MAMP</strong> tab and select the <em>preferences</em> option<br>
 
 <p align="center">
-  <img src="readme-img/mamp-preferences-step-1.png" style="width:300px;">
+ <img height="350" src="https://github.com/ame-abdellatif/PHP/blob/master/readme-img/mamp-preferences-step-1.png">
 </p>
 
 2. Once you select the preferences option, you will see more server options appear. We will only need to focus on the <strong>Web-Server</strong> option for now. Select the <strong>Web-Server tab</strong> and you will be redirected to a file directory window.
 
 <p align="center">
-  <img src="readme-img/mamp-preferences-step-2.png" style="width:300px;">
+  <img height="350" src="https://github.com/ame-abdellatif/PHP/blob/master/readme-img/mamp-preferences-step-2.png">
 </p>
 
 3. Lastly, you will just need to find where you project is located, go to that location and click on your project. Now MAMP will know where to find and point to your project files.
 
 <p align="center">
-  <img src="readme-img/mamp-preferences-step-3.png" style="width:300px;">
+  <img height="350" src="https://github.com/ame-abdellatif/PHP/blob/master/readme-img/mamp-preferences-step-3.png">
 </p>
 
 # Getting Started with PHPMyAdmin
