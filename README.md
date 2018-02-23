@@ -1,7 +1,7 @@
 # PHP : Hypertext Preprocessor
 
  <p align="center">
-   <img src="readme-img/phpLogo.png" style="width:100px;">
+   <img height="200" src="https://github.com/ame-abdellatif/PHP/blob/master/readme-img/phpLogo.png">
  </p>
 
 A widely used open source scripting language. Specially Designed for the web.
@@ -24,7 +24,7 @@ This can be accessed through the <em>Open WebStart page</em> from the MAMP inter
 
 <p align="center">
 <strong>Database and Server Configurations</strong>
-  <img src="readme-img/MAMP-1.png" style="width:300px;">
+  <img height="250" src="https://github.com/ame-abdellatif/PHP/blob/master/readme-img/MAMP-1.png">
 </p>
 
 <p align="center">
