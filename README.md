@@ -17,6 +17,7 @@ The database and server configurations for MAMP & MySQL can be found at the <str
 This can be accessed through the <em>Open WebStart page</em> from the MAMP interface.
 
 
+
 <p align="center">
 <strong>Mamp Interface</strong>
   <img height="300" src="https://github.com/ame-abdellatif/PHP/blob/master/readme-img/MAMP-3.png">
