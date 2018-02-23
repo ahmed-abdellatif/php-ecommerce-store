@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 /* This script:
  * - define constants and settings
@@ -18,9 +18,10 @@ define('LIVE', FALSE);
 define('EMAIL', 'InsertRealAddressHere');
 
 // Site URL (base for all redirections):
-define('BASE_URL', 'https://studentQi.io/');
+define('BASE_URL', 'http://localhost:8888/');
 
 // Location of the MySQL connection script:
+//MYSQL is a constant that holds the value of our database path
 define('MYSQL', 'mysqli_connect.php');
 
 // Adjust the time zone for PHP 5.1 and greater:

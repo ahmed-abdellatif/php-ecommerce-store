@@ -9,11 +9,18 @@
 ********************************************************************************************************
 */
 
+
 require('includes/config.inc.php');
+
 $page_title = 'Register';
 include('includes/header.html');
 
+/**
+** This is a conditional that checks for the form submission and then calls the database connection
+**/
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+
+//this is our constant defined in config.inc.php
 	require(MYSQL);
 	$trimmed = array_map('trim', $_POST);
 	$fn = $ln = $e = $p = FALSE;

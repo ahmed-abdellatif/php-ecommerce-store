@@ -1,26 +1,63 @@
-<?php
 
-	// Display links based upon the session status:
-	if (isset($_SESSION['user_id'])) {
+</div>
 
-		echo '<a href="../logout.php" title="Logout">Logout</a><br>
-	<a href="change_password.php" title="Change Your Password">Change Password</a><br>
-	';
 
-		// Add links if the user is an administrator:
-		if ($_SESSION['user_level'] == 1) {
-			echo '<a href="../view_users.php" title="View All Users">View Users</a><br>
-		<a href="#">Some Admin Page</a><br>
-		';
-		}
+<!--Main Navigation-->
 
-	} else { //  Not logged in.
-		echo '<a href="../register.php" title="Register for the Site">Register</a><br>
-	<a href="../login.php" title="Login">Login</a><br>
-	<a href="../forgot_password.php" title="Password Retrieval">Retrieve Password</a><br>
-	';
-	}
-	?>
+<!-- Navbar-->
+<!-- Remove "navbar-sticky" class to make navigation bar scrollable with the page.-->
+<header class="navbar navbar-sticky">
+	<!-- Search-->
+	<div class="site-branding">
+
+			<a class="site-logo" href="index.html"><img src="img/logo.png" alt="" style="margin:0 auto;max-width: 225px;height: auto;"></a>
+		</div>
+
+	<!-- Main Navigation-->
+	<nav class="site-menu">
+		<ul>
+			<li><a href="index.php"><span>Home</span></a></li>
+
+			// Note home is not included in our php code
+
+			<?php
+       if(isset($_SESSION)['user_id'])){
+         echo '<li><a href="logout.php"><span>Logout</span></a></li><br>
+				       <li><a href="change_password.php"><span>Sign Up</span></a></li><br>';
+
+        // If this user logging in is an administrator we have other links to shows as well
+			  if($_SESSION['user_level'] == 1) {
+				  echo '<li><a href="view_users.php"><span>View Users</span></a></li>';
+			  }
+			} else {
+				//This is the condition for when a user is not logged in
+
+				echo '<li><a href="register.php"><span>Register</span></a></li><br>
+							<li><a href="forgot_password.php"><span>Forgot Password</span></a></li><br>
+              <li><a href="login.php"><span>Log In</span></a></li>';
+
+			  }
+			?>
+
+
+		</ul>
+	</nav>
+	</div>
+</header>
+<!-- Start of Footer -->
+</div><!-- Content -->
+
+
+
+
+
+          </div>
+        </div>
+      </div>
+
+</div><!-- Menu -->
+
+
 
 <!-- Site Footer-->
 <footer class="site-footer">
@@ -65,9 +102,8 @@
 <script src="js/vendor.min.js"></script>
 <script src="js/scripts.min.js"></script>
 </body>
-
 </html>
 
-<?php // Flush the buffered output.
+<?php // Here we flush the buffer
 ob_end_flush();
 ?>
