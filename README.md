@@ -1,10 +1,14 @@
 # PHP : Hypertext Preprocessor
 
+This repository is designed for beginners looking to learn more about one of the **top** (Despite what other developers may say :ok_hand:) server-side languages today.
+
+PHP is of the few programming languages designed specifically for the web and is also a language that isn't too difficult to pick up for new developers.
+
  <p align="center">
-   <img height="200" src="https://github.com/ame-abdellatif/PHP/blob/master/readme-img/phpLogo.png">
+   <img height="150" src="https://github.com/ame-abdellatif/PHP/blob/master/readme-img/phpLogo.png">
  </p>
 
-A widely used open source scripting language. Specially Designed for the web.
+PHP is a server-side scripting language designed specifically for the web.
 
 # How to serve php web applications
 To run php application locally you will need to set up a local testing server,
