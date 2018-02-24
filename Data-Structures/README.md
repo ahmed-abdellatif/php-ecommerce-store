@@ -1,4 +1,4 @@
-# **Data Structures**
+# **Data Structures**: ![alt text](https://github.com/ame-abdellatif/PHP/blob/master/Data-Structures/data-struct-img/php-dataStructures.png "php data structures" )
 
 PHP is used for simple applications as well as very complex ones. Some of these applications can be  very data intensive. With the new release of PHP 7, PHP has entered into new possibilities of efficient and robust application development. Our purpose will be to show and prepare ourselves to understand the power of data structures and algorithms using PHP 7, so that we can utilize it in our applications and programs.
 
