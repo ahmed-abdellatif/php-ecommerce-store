@@ -1,0 +1,74 @@
+[06-Apr-2018 00:27:03 Asia/Manila] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/ameabdel/public_html/almandinedesign.com/objects/product.php:256
+Stack trace:
+#0 /home/ameabdel/public_html/almandinedesign.com/index.php(29): Product->countAll()
+#1 {main}
+  thrown in /home/ameabdel/public_html/almandinedesign.com/objects/product.php on line 256
+[06-Apr-2018 00:28:53 Asia/Manila] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/ameabdel/public_html/almandinedesign.com/objects/product.php:256
+Stack trace:
+#0 /home/ameabdel/public_html/almandinedesign.com/index.php(29): Product->countAll()
+#1 {main}
+  thrown in /home/ameabdel/public_html/almandinedesign.com/objects/product.php on line 256
+[06-Apr-2018 00:32:49 Asia/Manila] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/ameabdel/public_html/almandinedesign.com/objects/product.php:256
+Stack trace:
+#0 /home/ameabdel/public_html/almandinedesign.com/index.php(29): Product->countAll()
+#1 {main}
+  thrown in /home/ameabdel/public_html/almandinedesign.com/objects/product.php on line 256
+[06-Apr-2018 00:35:06 Asia/Manila] PHP Notice:  Undefined variable: category_id in /home/ameabdel/public_html/almandinedesign.com/read_products_template.php on line 88
+[06-Apr-2018 00:37:11 Asia/Manila] PHP Notice:  Undefined variable: category_id in /home/ameabdel/public_html/almandinedesign.com/read_products_template.php on line 88
+[06-Apr-2018 00:37:18 Asia/Manila] PHP Notice:  Undefined variable: category_id in /home/ameabdel/public_html/almandinedesign.com/read_products_template.php on line 88
+[06-Apr-2018 00:37:19 Asia/Manila] PHP Notice:  Undefined variable: category_id in /home/ameabdel/public_html/almandinedesign.com/read_products_template.php on line 88
+[06-Apr-2018 00:37:22 Asia/Manila] PHP Notice:  Undefined variable: category_id in /home/ameabdel/public_html/almandinedesign.com/read_products_template.php on line 88
+[06-Apr-2018 00:37:45 Asia/Manila] PHP Notice:  Undefined variable: category_id in /home/ameabdel/public_html/almandinedesign.com/read_products_template.php on line 88
+[06-Apr-2018 00:38:51 Asia/Manila] PHP Notice:  Undefined variable: category_id in /home/ameabdel/public_html/almandinedesign.com/read_products_template.php on line 88
+[06-Apr-2018 00:42:52 Asia/Manila] PHP Notice:  Undefined variable: category_id in /home/ameabdel/public_html/almandinedesign.com/read_products_template.php on line 88
+[06-Apr-2018 00:43:16 Asia/Manila] PHP Notice:  Undefined variable: category_id in /home/ameabdel/public_html/almandinedesign.com/read_products_template.php on line 88
+[06-Apr-2018 00:43:17 Asia/Manila] PHP Notice:  Undefined variable: category_id in /home/ameabdel/public_html/almandinedesign.com/read_products_template.php on line 88
+[06-Apr-2018 00:43:18 Asia/Manila] PHP Notice:  Undefined variable: category_id in /home/ameabdel/public_html/almandinedesign.com/read_products_template.php on line 88
+[06-Apr-2018 00:43:38 Asia/Manila] PHP Notice:  Undefined variable: category_id in /home/ameabdel/public_html/almandinedesign.com/read_products_template.php on line 88
+[06-Apr-2018 00:43:42 Asia/Manila] PHP Notice:  Undefined variable: category_id in /home/ameabdel/public_html/almandinedesign.com/read_products_template.php on line 88
+[06-Apr-2018 00:43:45 Asia/Manila] PHP Notice:  Undefined variable: category_id in /home/ameabdel/public_html/almandinedesign.com/read_products_template.php on line 88
+[06-Apr-2018 00:43:46 Asia/Manila] PHP Notice:  Undefined variable: category_id in /home/ameabdel/public_html/almandinedesign.com/read_products_template.php on line 88
+[06-Apr-2018 00:43:55 Asia/Manila] PHP Notice:  Undefined variable: category_id in /home/ameabdel/public_html/almandinedesign.com/read_products_template.php on line 88
+[06-Apr-2018 00:43:58 Asia/Manila] PHP Notice:  Undefined variable: category_id in /home/ameabdel/public_html/almandinedesign.com/read_products_template.php on line 88
+[06-Apr-2018 00:44:12 Asia/Manila] PHP Notice:  Undefined variable: category_id in /home/ameabdel/public_html/almandinedesign.com/read_products_template.php on line 88
+[06-Apr-2018 00:44:12 Asia/Manila] PHP Notice:  Undefined variable: category_id in /home/ameabdel/public_html/almandinedesign.com/read_products_template.php on line 88
+[06-Apr-2018 00:44:19 Asia/Manila] PHP Notice:  Undefined variable: category_id in /home/ameabdel/public_html/almandinedesign.com/read_products_template.php on line 88
+[06-Apr-2018 00:44:25 Asia/Manila] PHP Notice:  Undefined variable: category_id in /home/ameabdel/public_html/almandinedesign.com/read_products_template.php on line 88
+[06-Apr-2018 00:44:28 Asia/Manila] PHP Notice:  Undefined variable: category_id in /home/ameabdel/public_html/almandinedesign.com/read_products_template.php on line 88
+[06-Apr-2018 00:44:36 Asia/Manila] PHP Notice:  Undefined variable: category_id in /home/ameabdel/public_html/almandinedesign.com/read_products_template.php on line 88
+[06-Apr-2018 00:45:03 Asia/Manila] PHP Notice:  Undefined variable: category_id in /home/ameabdel/public_html/almandinedesign.com/read_products_template.php on line 88
+[06-Apr-2018 00:45:12 Asia/Manila] PHP Notice:  Undefined variable: category_id in /home/ameabdel/public_html/almandinedesign.com/read_products_template.php on line 88
+[06-Apr-2018 00:45:25 Asia/Manila] PHP Notice:  Undefined variable: category_id in /home/ameabdel/public_html/almandinedesign.com/read_products_template.php on line 88
+[06-Apr-2018 00:45:29 Asia/Manila] PHP Notice:  Undefined variable: category_id in /home/ameabdel/public_html/almandinedesign.com/read_products_template.php on line 88
+[06-Apr-2018 00:45:38 Asia/Manila] PHP Notice:  Undefined variable: category_id in /home/ameabdel/public_html/almandinedesign.com/read_products_template.php on line 88
+[06-Apr-2018 00:46:07 Asia/Manila] PHP Notice:  Undefined variable: category_id in /home/ameabdel/public_html/almandinedesign.com/read_products_template.php on line 88
+[06-Apr-2018 00:46:08 Asia/Manila] PHP Notice:  Undefined variable: category_id in /home/ameabdel/public_html/almandinedesign.com/read_products_template.php on line 88
+[06-Apr-2018 00:49:14 Asia/Manila] PHP Notice:  Undefined variable: category_id in /home/ameabdel/public_html/almandinedesign.com/read_products_template.php on line 88
+[06-Apr-2018 00:52:41 Asia/Manila] PHP Notice:  Undefined variable: category_id in /home/ameabdel/public_html/almandinedesign.com/read_products_template.php on line 88
+[06-Apr-2018 00:57:40 Asia/Manila] PHP Notice:  Undefined variable: category_id in /home/ameabdel/public_html/almandinedesign.com/read_products_template.php on line 88
+[06-Apr-2018 01:03:14 Asia/Manila] PHP Notice:  Undefined variable: category_id in /home/ameabdel/public_html/almandinedesign.com/read_products_template.php on line 88
+[06-Apr-2018 01:08:29 Asia/Manila] PHP Notice:  Undefined variable: category_id in /home/ameabdel/public_html/almandinedesign.com/read_products_template.php on line 88
+[06-Apr-2018 01:13:13 Asia/Manila] PHP Notice:  Undefined variable: category_id in /home/ameabdel/public_html/almandinedesign.com/read_products_template.php on line 88
+[06-Apr-2018 01:18:01 Asia/Manila] PHP Notice:  Undefined variable: category_id in /home/ameabdel/public_html/almandinedesign.com/read_products_template.php on line 88
+[06-Apr-2018 01:21:59 Asia/Manila] PHP Notice:  Undefined variable: category_id in /home/ameabdel/public_html/almandinedesign.com/read_products_template.php on line 88
+[06-Apr-2018 01:22:13 Asia/Manila] PHP Notice:  Undefined variable: category_id in /home/ameabdel/public_html/almandinedesign.com/read_products_template.php on line 88
+[06-Apr-2018 01:22:50 Asia/Manila] PHP Notice:  Undefined variable: category_id in /home/ameabdel/public_html/almandinedesign.com/read_products_template.php on line 88
+[06-Apr-2018 01:24:02 Asia/Manila] PHP Notice:  Undefined variable: category_id in /home/ameabdel/public_html/almandinedesign.com/read_products_template.php on line 88
+[06-Apr-2018 01:24:05 Asia/Manila] PHP Notice:  Undefined variable: category_id in /home/ameabdel/public_html/almandinedesign.com/read_products_template.php on line 88
+[06-Apr-2018 01:24:07 Asia/Manila] PHP Notice:  Undefined variable: category_id in /home/ameabdel/public_html/almandinedesign.com/read_products_template.php on line 88
+[06-Apr-2018 01:24:08 Asia/Manila] PHP Notice:  Undefined variable: category_id in /home/ameabdel/public_html/almandinedesign.com/read_products_template.php on line 88
+[06-Apr-2018 01:24:16 Asia/Manila] PHP Notice:  Undefined variable: category_id in /home/ameabdel/public_html/almandinedesign.com/read_products_template.php on line 88
+[06-Apr-2018 01:24:17 Asia/Manila] PHP Notice:  Undefined variable: category_id in /home/ameabdel/public_html/almandinedesign.com/read_products_template.php on line 88
+[06-Apr-2018 01:24:19 Asia/Manila] PHP Notice:  Undefined variable: category_id in /home/ameabdel/public_html/almandinedesign.com/read_products_template.php on line 88
+[06-Apr-2018 01:27:43 Asia/Manila] PHP Notice:  Undefined variable: category_id in /home/ameabdel/public_html/almandinedesign.com/read_products_template.php on line 88
+[06-Apr-2018 01:28:11 Asia/Manila] PHP Notice:  Undefined variable: category_id in /home/ameabdel/public_html/almandinedesign.com/read_products_template.php on line 88
+[06-Apr-2018 01:28:13 Asia/Manila] PHP Notice:  Undefined variable: category_id in /home/ameabdel/public_html/almandinedesign.com/read_products_template.php on line 88
+[06-Apr-2018 01:28:15 Asia/Manila] PHP Notice:  Undefined variable: category_id in /home/ameabdel/public_html/almandinedesign.com/read_products_template.php on line 88
+[06-Apr-2018 01:29:36 Asia/Manila] PHP Notice:  Undefined variable: category_id in /home/ameabdel/public_html/almandinedesign.com/read_products_template.php on line 88
+[06-Apr-2018 01:30:10 Asia/Manila] PHP Notice:  Undefined variable: category_id in /home/ameabdel/public_html/almandinedesign.com/read_products_template.php on line 88
+[06-Apr-2018 01:30:23 Asia/Manila] PHP Notice:  Undefined variable: category_id in /home/ameabdel/public_html/almandinedesign.com/read_products_template.php on line 88
+[06-Apr-2018 01:30:25 Asia/Manila] PHP Notice:  Undefined variable: category_id in /home/ameabdel/public_html/almandinedesign.com/read_products_template.php on line 88
+[06-Apr-2018 01:31:25 Asia/Manila] PHP Notice:  Undefined variable: category_id in /home/ameabdel/public_html/almandinedesign.com/read_products_template.php on line 88
+[06-Apr-2018 01:31:30 Asia/Manila] PHP Notice:  Undefined variable: category_id in /home/ameabdel/public_html/almandinedesign.com/read_products_template.php on line 88
+[06-Apr-2018 01:31:34 Asia/Manila] PHP Notice:  Undefined variable: category_id in /home/ameabdel/public_html/almandinedesign.com/read_products_template.php on line 88
+[06-Apr-2018 01:31:52 Asia/Manila] PHP Notice:  Undefined variable: category_id in /home/ameabdel/public_html/almandinedesign.com/read_products_template.php on line 88

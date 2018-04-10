@@ -1,0 +1,19 @@
+#Fix Rewrite
+Options -Multiviews
+
+# Mod Rewrite
+Options +FollowSymLinks
+RewriteEngine On
+RewriteBase /
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# used for viewing single page
+RewriteRule ^page/([a-zA-Z0-9_-]+)\/?$ page.php?slug=$1
+
+# used for viewing single product page
+RewriteRule ^product/([a-zA-Z0-9_-]+)/([0-9]+)\/?$ product.php?name=$1&id=$2
+
+# used for php pages such as "almandinedesign.com/login.php" will become "almandinedesign.com/login/"
+RewriteRule ^([a-z_]+)\/?$ $1.php [NC]
