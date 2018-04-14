@@ -2,23 +2,7 @@
 
 var sh = SyntaxHighlighter;
 
-/**
- * Provides functionality to dynamically load only the brushes that a needed to render the current page.
- *
- * There are two syntaxes that autoload understands. For example:
- *
- * SyntaxHighlighter.autoloader(
- *     [ 'applescript',          'Scripts/shBrushAppleScript.js' ],
- *     [ 'actionscript3', 'as3', 'Scripts/shBrushAS3.js' ]
- * );
- *
- * or a more easily comprehendable one:
- *
- * SyntaxHighlighter.autoloader(
- *     'applescript       Scripts/shBrushAppleScript.js',
- *     'actionscript3 as3 Scripts/shBrushAS3.js'
- * );
- */
+
 sh.autoloader = function()
 {
 	var list = arguments,

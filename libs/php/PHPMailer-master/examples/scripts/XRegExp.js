@@ -1,5 +1,4 @@
 // XRegExp 1.5.1
-// (c) 2007-2012 Steven Levithan
 // MIT License
 // <http://xregexp.com>
 // Provides an augmented, extensible, cross-browser implementation of regular expressions,
@@ -661,4 +660,3 @@ if (XRegExp) {
     */
 
 })();
-

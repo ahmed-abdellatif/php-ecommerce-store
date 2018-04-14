@@ -13,7 +13,8 @@ SET time_zone = "+00:00";
 --
 -- Database: `software`
 --
-
+-- use for admin : ahmed@example.com
+-- pass: eCommerce123$
 -- --------------------------------------------------------
 
 --
@@ -198,7 +199,7 @@ CREATE TABLE `users` (
 
 INSERT INTO `users` (`id`, `firstname`, `lastname`, `email`, `contact_number`, `address`, `password`, `access_level`, `access_code`, `status`, `created`, `modified`) VALUES
 (1, 'Ahmed', 'Abdellatif', 'ahmed@example.com', '0999999999', 'Blk. 24 A, Lot 6, Ph. 3, Peace Village', '$2y$10$sMXoWx/8A.AVOHz6s0EJKukk4vgqv.A3Y1koq5JCJOjATwDpVCoda', 'Admin', '', 1, '0000-00-00 00:00:00', '2018-04-04 21:05:02'),
-(4, 'John', 'Skim', 'darwin@example.com', '09194444444', 'Blk. 24 A, Lot 6, Ph. 3, Peace Village, Antipolo City, Rizal.', '$2y$10$XIA5/XazBK/6XmkoWnhe2esjmB8aZjTdIQl7iDuY8x4wDIGV4lhO2', 'Customer', 'ILXFBdMAbHVrJswNDnm231cziO8FZomn', 1, '2014-10-29 17:31:09', '2018-04-06 23:23:28');
+(4, 'John', 'Skim', 'john@example.com', '09194444444', 'Blk. 24 A, Lot 6, Ph. 3, Peace Village, Antipolo City, Rizal.', '$2y$10$XIA5/XazBK/6XmkoWnhe2esjmB8aZjTdIQl7iDuY8x4wDIGV4lhO2', 'Customer', 'ILXFBdMAbHVrJswNDnm231cziO8FZomn', 1, '2014-10-29 17:31:09', '2018-04-06 23:23:28');
 
 --
 

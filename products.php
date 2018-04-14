@@ -35,11 +35,43 @@ $page_title="Products <small>{$products_count}</small>";
 // include page header HTML
 include_once 'layout_head.php';
 
-// to prevent undefined index notice
-$action = isset($_GET['action']) ? $_GET['action'] : "";
+/**
+****************************************************************************************
+*  Basic Programming Concepts : Arrays and Indexes
+*
+*  when an element is sent to an array it is given an 'index'.
+*  php automatically sets an index for you if you do not
+*  set one. An index acts an identifier, so that you
+*  can track the element needed.
+*
+****************************************************************************************
+***/
 
-// used when somethign was added to cart
-$id = isset($_GET['id']) ? $_GET['id'] : "";
+//can also be written as : $action = isset($_GET['action']) ? $_GET['action'] : "";
+if(isset($_GET['action'])) {
+	//it exists
+	echo $_GET['action'];
+} else {
+	//else it does not
+}
+
+
+/**
+****************************************************************************************
+*  $_POST, $_GET, $_SESSION, $_FILES, $_COOKIE, $_SERVER and $_REQUEST are predefined arrays!
+*  i.e. They exist by default and they should be treated like regular arrays.
+*
+****************************************************************************************
+*/
+
+
+// Get id of product to add to cart
+// this works too => $id = isset($_GET['id']) ? $_GET['id'] : "";
+if(isset($_GET['id'])) {
+	echo $_GET['id'];
+} else {
+	//it does not
+}
 
 echo "<div class='col-md-12'>";
 

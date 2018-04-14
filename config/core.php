@@ -66,7 +66,7 @@ else{
 error_reporting(E_ALL);
 
 // set your default time-zone
-date_default_timezone_set('Asia/Manila');
+date_default_timezone_set('America/New_York');
 
 // home page url
 $home_url="http://localhost:8888/";

@@ -1,15 +1,4 @@
 <?php
-/**
- * EasyPeasyICS Simple ICS/vCal data generator.
- * @author Marcus Bointon <phpmailer@synchromedia.co.uk>
- * @author Manuel Reinhard <manu@sprain.ch>
- *
- * Built with inspiration from
- * http://stackoverflow.com/questions/1463480/how-can-i-use-php-to-dynamically-publish-an-ical-file-to-be-read-by-google-calend/1464355#1464355
- * History:
- * 2010/12/17 - Manuel Reinhard - when it all started
- * 2014 PHPMailer project becomes maintainer
- */
 
 /**
  * Class EasyPeasyICS.

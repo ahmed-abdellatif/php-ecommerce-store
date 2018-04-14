@@ -2,7 +2,7 @@
 /**
  * PHP Password Demo
  *
- * @link https://github.com/Antnee/phpPasswordLib
+ * @link 
  */
 
 
@@ -34,19 +34,19 @@ if (isset($_POST['password_hash'])){
     $algo = $_POST['algo'];
     $salt = $_POST['salt'];
     $cost = $_POST['cost'];
-    
+
     switch ($algo){
         case PASSWORD_DEFAULT: $selectedDefault = 'selected'; break;
         case PASSWORD_BCRYPT: $selectedBlowfish = 'selected'; break;
         case PASSWORD_SHA256: $selectedSha256 = 'selected'; break;
         case PASSWORD_SHA512: $selectedSha512 = 'selected'; break;
     }
-    
+
     $options = array();
-    
+
     if (!empty($cost)) $options['cost'] = (int)$cost;
     if (!empty($salt)) $options['salt'] = $salt;
-    
+
     $start  = microtime(TRUE);
     $hash   = password_hash($pass, $algo, $options);
     $end    = microtime(TRUE);
@@ -71,18 +71,18 @@ if (isset($_POST['password_needs_rehash'])){
     $hash = $_POST['hash'];
     $algo = $_POST['algo'];
     $cost = $_POST['cost'];
-    
+
     switch ($algo){
         case PASSWORD_DEFAULT: $selectedDefault = 'selected'; break;
         case PASSWORD_BCRYPT: $selectedBlowfish = 'selected'; break;
         case PASSWORD_SHA256: $selectedSha256 = 'selected'; break;
         case PASSWORD_SHA512: $selectedSha512 = 'selected'; break;
     }
-    
+
     $options = array();
-    
+
     if (!empty($cost)) $options['cost'] = (int)$cost;
-    
+
     $rehash = password_needs_rehash($hash, $algo, $options)
         ? 'DOES'
         : 'does NOT';
@@ -91,7 +91,7 @@ if (isset($_POST['password_needs_rehash'])){
 if (isset($_POST['password_get_info'])){
     // We're getting password info
     $hash = $_POST['hash'];
-    
+
     $info = password_get_info($hash);
 }
 
@@ -150,9 +150,9 @@ if (isset($_POST['password_get_info'])){
                 <p> Took <?php echo $time ?> seconds to generate this hash</p>
             <?php endif ?>
         </form>
-        
-        
-        
+
+
+
         <form action="" method="POST">
             <h2>password_verify() example</h2>
             <dl>
@@ -167,9 +167,9 @@ if (isset($_POST['password_get_info'])){
                 <p style="clear:both;"><?php echo $verified ?></p>
             <?php endif ?>
         </form>
-        
-        
-        
+
+
+
         <form action="" method="POST">
             <h2>password_needs_rehash() example</h2>
             <dl>
@@ -191,9 +191,9 @@ if (isset($_POST['password_get_info'])){
                 <p style="clear:both;">Your generated hash <?php echo $rehash ?> need to be rehashed</span></p>
             <?php endif ?>
         </form>
-        
-        
-        
+
+
+
         <form action="" method="POST">
             <h2>password_get_info() example</h2>
             <dl>
