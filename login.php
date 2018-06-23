@@ -40,18 +40,23 @@ if($_POST){
 
 	// check if email and password are in the database
 	$user->email=$_POST['email'];
+
 	// check if email exists, also get user details using this emailExists() method
 	$email_exists = $user->emailExists();
+
 	// validate login
 	if($email_exists && password_verify($_POST['password'], $user->password) && $user->status==1){
+
 		// check if valid temporary user id exists
 		if(isset($_SESSION['user_id'])){
 			// update cart_items in the database
 			$cart_item->user_id=$user->id;
 			$cart_item->updateUserId();
 		}
+
 		// set retrieved user_id to cookie user_id
 		setcookie("user_id", $user->id);
+
 		// set the session value to true
 		$_SESSION['logged_in'] = true;
 		$_SESSION['user_id'] = $user->id;

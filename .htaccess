@@ -15,5 +15,5 @@ RewriteRule ^page/([a-zA-Z0-9_-]+)\/?$ page.php?slug=$1
 # used for viewing single product page
 RewriteRule ^product/([a-zA-Z0-9_-]+)/([0-9]+)\/?$ product.php?name=$1&id=$2
 
-# used for php pages such as "almandinedesign.com/login.php" will become "almandinedesign.com/login/"
+# used for php pages such as "yoursite.com/login.php" will become "yoursite.com/login/"
 RewriteRule ^([a-z_]+)\/?$ $1.php [NC]

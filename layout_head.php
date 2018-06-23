@@ -1,8 +1,7 @@
 <?php
-session_start();
 // initialize if session cart is empty
 if(!isset($_SESSION['cart'])){
-    $_SESSION['cart']=array();
+	$_SESSION['cart']=array();
 }
 ?>
 <!DOCTYPE html>

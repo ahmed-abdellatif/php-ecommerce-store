@@ -3,7 +3,7 @@
 // used to get mysql database connection
 class Database{
 	private $host = "localhost";
-	private $db_name = "ecommerce";
+	private $db_name = "ecom";
 	private $username = "root";
 	private $password = "root";
 	public $conn;

@@ -70,7 +70,7 @@ date_default_timezone_set('America/New_York');
 
 // home page url
 $home_url="http://localhost:8888/";
-//$home_url="https://almandinedesign.com/";
+$home_url="https://almandine.io/";
 
 
 // ===== PAGINATION =====
